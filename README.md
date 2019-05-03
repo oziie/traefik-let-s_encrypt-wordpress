@@ -10,3 +10,7 @@
   + Docker+Docker Compose installed Linux Server
   + Available and verified domain name
   + Correctly written needed files on this repository
+
+## All to do this...
+
+  Please,write your own domain name and e-mail to the right places in ```docker-compose.yml``` and ```traefik.toml".Then,just clone the repository and run ``` docker-compose up -d```.Have fun...
