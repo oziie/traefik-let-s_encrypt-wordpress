@@ -16,7 +16,7 @@ defaultEntryPoints = ["http", "https"]
 
 [acme]
 entryPoint = "https"
-email = "oziiedevs@gmail.com"
+email = "YOUR E-MAIL"
 storage = "/etc/traefik/acme/acme.json"
 onHostRule = true
 [acme.httpChallenge]
@@ -24,7 +24,7 @@ entryPoint = "http"
 
 [docker]
 endpoint = "unix:///var/run/docker.sock"
-domain = "oziie.me"
+domain = "YOUR DOMAIN"
 watch= true
 exposedByDefault = false
 
